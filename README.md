@@ -44,7 +44,7 @@ sudo iptables -P FORWARD ACCEPT
 sudo iptables -A FORWARD -j ACCEPT
 
 # snat
-## SNAT, la IP del router es estática
+## SNAT, la IP del router es estática 
 ## MASQUERADING, la IP del router es pública
 # https://albertomolina.wordpress.com/2009/01/09/nat-con-iptables/
 # todos los paquetes de vnet spoke1 ( 10.1.0.0/16) salen con la IP de eth0 de vmhub
